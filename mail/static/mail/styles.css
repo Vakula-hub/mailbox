@@ -1,0 +1,22 @@
+textarea {
+  min-height: 400px;
+  font-style: italic;
+  color: blue !important;
+}
+#body {
+  white-space: pre-wrap;
+  /* text-overflow: clip; */
+  overflow-wrap: break-word;
+}
+div .emails-unit {
+  border: solid 1px black;
+  margin: 0 0 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+#email-archive {
+  z-index: 100;
+  position: relative;
+}
